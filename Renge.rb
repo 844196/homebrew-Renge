@@ -3,7 +3,7 @@ require "formula"
 class Renge < Formula
     homepage "https://github.com/844196/Renge"
     url "https://github.com/844196/Renge/archive/v0.1.tar.gz"
-    sha256 "cc4dfe7e6622788c47691d6f496d822e5c6b85d3fa57eb286d450624827f3374"
+    sha256 "64438e59f82f9759ee41619cb8b8294732c37ba1a24e8fd52f5aa4a2a21ad15f"
     head "https://github.com/844196/Renge.git"
     version "0.1"
 
