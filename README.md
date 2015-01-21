@@ -11,7 +11,7 @@ $ brew tap 844196/Renge
 [![](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/844196/Renge/blob/master/LICENSE)
 [![](http://img.shields.io/github/issues/844196/Renge.svg?style=flat)](https://github.com/844196/Renge/issues)
 
-![](http://41.media.tumblr.com/abf4ebeccf80bbe3c5eea2341a799716/tumblr_nijecbfZQZ1s7qf9xo1_1280.png)
+[![](http://41.media.tumblr.com/abf4ebeccf80bbe3c5eea2341a799716/tumblr_nijecbfZQZ1s7qf9xo1_1280.png)](https://github.com/844196/Renge)
 
 ### Installation
 ```shellsession
@@ -25,7 +25,7 @@ $ brew install Renge
 [![](http://img.shields.io/badge/license-WTFPL-red.svg?style=flat)](https://github.com/sasairc/yasuna/blob/master/LICENSE)
 [![](http://img.shields.io/github/issues/sasairc/yasuna.svg?style=flat)](https://github.com/sasairc/yasuna/issues)
 
-![](http://41.media.tumblr.com/632cd09ea211eed2c5fc4635457a8640/tumblr_nijecbfZQZ1s7qf9xo2_1280.png)
+[![](http://41.media.tumblr.com/632cd09ea211eed2c5fc4635457a8640/tumblr_nijecbfZQZ1s7qf9xo2_1280.png)](https://github.com/sasairc/yasuna)
 
 ### Installation
 ```shellsession
