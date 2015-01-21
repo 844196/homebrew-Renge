@@ -1,12 +1,37 @@
 # homebrew-Renge
 
-
-## Installation
+## Tap
 ```shellsession
 $ brew tap 844196/Renge
+```
+
+## Renge
+[![](http://img.shields.io/badge/author-844196-blue.svg?style=flat)](https://github.com/844196)
+[![](http://img.shields.io/badge/version-0.7-orange.svg?style=flat)](https://github.com/844196/Renge/releases)
+[![](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/844196/Renge/blob/master/LICENSE)
+[![](http://img.shields.io/github/issues/844196/Renge.svg?style=flat)](https://github.com/844196/Renge/issues)
+
+![](http://41.media.tumblr.com/abf4ebeccf80bbe3c5eea2341a799716/tumblr_nijecbfZQZ1s7qf9xo1_1280.png)
+
+### Installation
+```shellsession
 $ brew install Renge
 ```
 
 
-## Inspire
-[sudo apt-get install RENGE](https://soundcloud.com/rekanan/sudo-apt-get-install-renge) by [rekanan](https://soundcloud.com/rekanan) on SoundCloud
+## yasuna
+[![](http://img.shields.io/badge/author-sasairc-blue.svg?style=flat)](https://github.com/sasairc)
+[![](http://img.shields.io/badge/version-0.2-orange.svg?style=flat)](http://ssiserver.moe.hm/debian/)
+[![](http://img.shields.io/badge/license-WTFPL-red.svg?style=flat)](https://github.com/sasairc/yasuna/blob/master/LICENSE)
+[![](http://img.shields.io/github/issues/sasairc/yasuna.svg?style=flat)](https://github.com/sasairc/yasuna/issues)
+
+![](http://41.media.tumblr.com/632cd09ea211eed2c5fc4635457a8640/tumblr_nijecbfZQZ1s7qf9xo2_1280.png)
+
+### Installation
+```shellsession
+$ brew install yasuna
+```
+
+
+## Formula maintainer
+Masaya Tk (<https://github.com/844196>)
