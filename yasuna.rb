@@ -2,9 +2,9 @@ require "formula"
 
 class Yasuna < Formula
     homepage "https://github.com/sasairc/yasuna"
-    url "http://ssiserver.moe.hm/debian/yasuna_0.1-1.tar.gz"
-    sha256 "d46c6fd84ce3553b08cf56d468d7480296e8cd3761f4db456c07c95c8cecea21"
-    version "0.1"
+    url "http://ssiserver.moe.hm/debian/yasuna_0.2-1.tar.gz"
+    sha256 "3d6a23f4dc7914df407dd0fcb601841abea1002a9b5f1aefa3bbd98dc401af29"
+    version "0.2"
 
     def install
         system "make", "PREFIX=#{prefix}"
