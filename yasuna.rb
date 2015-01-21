@@ -8,6 +8,7 @@ class Yasuna < Formula
     version "0.1"
 
     def install
+        system "make"
         system "make", "install", "PREFIX=#{prefix}"
     end
 end
