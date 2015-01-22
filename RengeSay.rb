@@ -7,6 +7,8 @@ class Rengesay < Formula
     head "https://github.com/844196/RengeSay.git"
     version "1.0"
 
+    depends_on "cowsay"
+
     def install
         system "make", "install", "PREFIX=#{prefix}"
     end
