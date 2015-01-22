@@ -2,10 +2,10 @@ require "formula"
 
 class Renge < Formula
     homepage "https://github.com/844196/Renge"
-    url "https://github.com/844196/Renge/archive/v0.7.tar.gz"
-    sha256 "4e9af82797fb020b876b391f67c3d9c5825ba2c47c947093681ddeeee6f0daf1"
+    url "https://github.com/844196/Renge/archive/v0.8.tar.gz"
+    sha256 "2c02399d02346095c0aae9c27e839d5c52d13426f8d8da1ad19242bdaf88a641"
     head "https://github.com/844196/Renge.git"
-    version "0.7"
+    version "0.8"
 
     def install
         system "make", "install", "PREFIX=#{prefix}"
