@@ -21,7 +21,7 @@ $ brew install Renge
 
 ## RengeSay
 [![](http://img.shields.io/badge/author-844196-blue.svg?style=flat)](https://github.com/844196)
-[![](http://img.shields.io/badge/version-1.0-orange.svg?style=flat)](https://github.com/844196/RengeSay/releases)
+[![](http://img.shields.io/badge/version-1.1-orange.svg?style=flat)](https://github.com/844196/RengeSay/releases)
 [![](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/844196/RengeSay/blob/master/LICENSE)
 [![](http://img.shields.io/github/issues/844196/RengeSay.svg?style=flat)](https://github.com/844196/RengeSay/issues)
 

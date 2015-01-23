@@ -2,10 +2,10 @@ require "formula"
 
 class Rengesay < Formula
     homepage "https://github.com/844196/RengeSay"
-    url "https://github.com/844196/RengeSay/archive/v1.0.tar.gz"
-    sha256 "b3655ac64dfeb82f9a5128b2fbfda851c874d4e3f32802b45384307c04c1d968"
+    url "https://github.com/844196/RengeSay/archive/v1.1.tar.gz"
+    sha256 "d23cdaa67c7c5c5b7755926cb824a7978806a5912c5d4a336fcf1cf2f36be121"
     head "https://github.com/844196/RengeSay.git"
-    version "1.0"
+    version "1.1"
 
     depends_on "cowsay"
 
