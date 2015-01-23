@@ -7,7 +7,7 @@ $ brew tap 844196/Renge
 
 ## Renge
 [![](http://img.shields.io/badge/author-844196-blue.svg?style=flat)](https://github.com/844196)
-[![](http://img.shields.io/badge/version-0.8-orange.svg?style=flat)](https://github.com/844196/Renge/releases)
+[![](http://img.shields.io/badge/version-0.9-orange.svg?style=flat)](https://github.com/844196/Renge/releases)
 [![](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/844196/Renge/blob/master/LICENSE)
 [![](http://img.shields.io/github/issues/844196/Renge.svg?style=flat)](https://github.com/844196/Renge/issues)
 
