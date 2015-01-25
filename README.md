@@ -33,6 +33,20 @@ $ brew install RengeSay
 ```
 
 
+## brewbundle_tte_dekiruyatu
+[![](http://img.shields.io/badge/author-844196-blue.svg?style=flat)](https://github.com/844196)
+[![](http://img.shields.io/badge/version-0.1-orange.svg?style=flat)](https://github.com/844196/brewbundle_tte_dekiruyatu/releases)
+[![](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/844196/brewbundle_tte_dekiruyatu/blob/master/LICENSE)
+[![](http://img.shields.io/github/issues/844196/brewbundle_tte_dekiruyatu.svg?style=flat)](https://github.com/844196/brewbundle_tte_dekiruyatu/issues)
+
+![](http://33.media.tumblr.com/4a1490a012133ec2d2003631ab277cba/tumblr_niqj9bKCTm1s7qf9xo1_1280.gif)
+
+### Installation
+```shellsession
+$ brew install brewbundle_tte_dekiruyatu
+```
+
+
 ## yasuna
 [![](http://img.shields.io/badge/author-sasairc-blue.svg?style=flat)](https://github.com/sasairc)
 [![](http://img.shields.io/badge/version-0.3.1-orange.svg?style=flat)](http://ssiserver.moe.hm/debian/)
