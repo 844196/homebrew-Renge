@@ -49,7 +49,7 @@ $ brew install brewbundle-tte-dekiruyatu
 
 ## yasuna
 [![](http://img.shields.io/badge/author-sasairc-blue.svg?style=flat)](https://github.com/sasairc)
-[![](http://img.shields.io/badge/version-0.3.1-orange.svg?style=flat)](http://ssiserver.moe.hm/debian/)
+[![](http://img.shields.io/badge/version-0.3.4-orange.svg?style=flat)](http://ssiserver.moe.hm/debian/)
 [![](http://img.shields.io/badge/license-WTFPL-red.svg?style=flat)](https://github.com/sasairc/yasuna/blob/master/LICENSE)
 [![](http://img.shields.io/github/issues/sasairc/yasuna.svg?style=flat)](https://github.com/sasairc/yasuna/issues)
 
