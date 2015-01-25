@@ -43,7 +43,7 @@ $ brew install RengeSay
 
 ### Installation
 ```shellsession
-$ brew install brewbundle_tte_dekiruyatu
+$ brew install brewbundle-tte-dekiruyatu
 ```
 
 
