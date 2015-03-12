@@ -14,7 +14,7 @@ class Clangsay < Formula
 
     def install
         system "make", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows"
-        system "make", "install", "PREFIX=#{prefix}"
+        system "make", "install", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows"
 
         if build.include?('zsh-completion')
             prefix.install "_clangsay"
