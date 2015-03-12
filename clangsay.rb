@@ -18,8 +18,8 @@ class Clangsay < Formula
 
         if build.include?('zsh-completion')
             #fpath = %x[ zsh -c 'echo $FPATH' ].slice(/(?:^[^:]+):/).chop
-            #prefix.install "_clangsay"
             #system "install", "-pm 644", "#{prefix}/_clangsay", "#{fpath}"
+            prefix.install "_clangsay"
             zsh_completion.install "#{prefix}/_clangsay"
         end
     end
