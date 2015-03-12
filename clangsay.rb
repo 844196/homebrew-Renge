@@ -14,11 +14,9 @@ class Clangsay < Formula
 
     def install
         system "make", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows"
-        system "make", "install-bin", "PREFIX=#{prefix}"
+        system "make", "install", "PREFIX=#{prefix}"
 
         if build.include?('zsh-completion')
-            #fpath = %x[ zsh -c 'echo $FPATH' ].slice(/(?:^[^:]+):/).chop
-            #system "install", "-pm 644", "#{prefix}/_clangsay", "#{fpath}"
             prefix.install "_clangsay"
             zsh_completion.install "#{prefix}/_clangsay"
         end
