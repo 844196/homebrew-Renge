@@ -20,7 +20,6 @@ class Clangsay < Formula
         system "make", "install", "PREFIX=#{prefix}"
 
         if build.include?('zsh-completion')
-            depends_on "zsh"
             zsh_functions_d = share + 'zsh/functions'
             zsh_functions_d.install "_clangsay"
         end
