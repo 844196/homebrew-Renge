@@ -17,11 +17,12 @@ class Clangsay < Formula
 
     def install
         system "make", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows"
-        system "make", "install", "PREFIX=#{prefix}"
+        system "make", "install-bin", "PREFIX=#{prefix}"
 
         if build.include?('zsh-completion')
-            zsh_functions_d = share + 'zsh/functions'
-            zsh_functions_d.install "_clangsay"
+            ENV['FPATH'].split(':').find do |path|
+                path.install "_clangsay"
+            end
         end
     end
 end
