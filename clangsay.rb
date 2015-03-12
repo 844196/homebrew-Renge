@@ -18,8 +18,7 @@ class Clangsay < Formula
 
         if build.include?('zsh-completion')
             `echo 'echo $FPATH' | zsh`.split(':').find do |path|
-                print "#{var}" if File.directory? path
-                path.install "_clangsay"
+                path.install "_clangsay" if File.directory? path
             end
         end
     end
