@@ -10,13 +10,16 @@ class Clangsay < Formula
     depends_on "pkg-config"
     depends_on "glib"
 
+    option "zsh-completion", "Install zsh completion"
+
     def install
         system "make", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows/"
-        if ARGV.include?('--zsh-completion') && ENV.include?('FPATH')
+        system "make", "install", "PREFIX=#{prefix}"
+
+        if build.include?('zsh-completion') && ENV.include?('FPATH')
             ENV['FPATH'].split(':').find do |path|
                 system "install", "-pm 644", "_clangsay", "#{path}" if File.directory? path
             end
         end
-        system "make", "install", "PREFIX=#{prefix}"
     end
 end
