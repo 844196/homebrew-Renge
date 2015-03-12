@@ -17,9 +17,9 @@ class Clangsay < Formula
         system "make", "install-bin", "PREFIX=#{prefix}"
 
         if build.include?('zsh-completion')
-            `echo 'echo $FPATH' | zsh`.split(':').find do |path|
-                path.install "_clangsay" if File.directory? path
-            end
+            fpath = `echo 'echo $FPATH' | zsh`.slice(/(?:^[^:]+):/).chop
+            prefix.install "_clangsay"
+            fpath.install "_clangsay"
         end
     end
 end
