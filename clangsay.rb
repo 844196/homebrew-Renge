@@ -7,14 +7,21 @@ class Clangsay < Formula
     version "0.0.5"
 
     option "zsh-completion", "Install zsh completion"
+    option "without-cows", "Without cowfile"
 
     depends_on "cowsay"
     depends_on "pkg-config"
     depends_on "glib"
 
     def install
-        system "make", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows"
-        system "make", "install", "PREFIX=#{prefix}", "COWPATH=#{HOMEBREW_PREFIX}/share/cows"
+        cowpath = "#{HOMEBREW_PREFIX}" + '/share/cows'
+
+        system "make", "PREFIX=#{prefix}", "COWPATH=#{cowpath}"
+        system "make", "install", "PREFIX=#{prefix}"
+
+        if !(build.include?('without-cows'))
+            Pathname("#{cowpath}").install Dir["#{prefix}/share/clangsay/cows/*"]
+        end
 
         if build.include?('zsh-completion')
             prefix.install "_clangsay"
