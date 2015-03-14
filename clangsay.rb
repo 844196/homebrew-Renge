@@ -20,7 +20,8 @@ class Clangsay < Formula
         system "make", "install", "PREFIX=#{prefix}"
 
         if !(build.include?('without-cows'))
-            Pathname("#{cowpath}").install Dir["#{prefix}/share/clangsay/cows/*"]
+            rm "cows/default.cow"
+            share.install Dir["cows"]
         end
 
         if build.include?('zsh-completion')
