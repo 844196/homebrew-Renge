@@ -2,9 +2,9 @@ require "formula"
 
 class Clangsay < Formula
     homepage "https://github.com/sasairc/clangsay"
-    url "https://github.com/sasairc/clangsay/archive/v0.0.6.tar.gz"
-    sha256 "5dc5aa574967e99efc684f2604107e6009a2c5d64164b2e20da638959bb7a2ba"
-    version "0.0.6"
+    url "https://github.com/sasairc/clangsay/archive/v0.0.7.tar.gz"
+    sha256 "97a2ed91791755cb662fa823b25bfdef091e66dae052ae2ed3bb0b49e7bcfb36"
+    version "0.0.7"
 
     option "zsh-completion", "Install zsh completion"
     option "without-cows", "Without cowfile"
