@@ -2,9 +2,9 @@ require "formula"
 
 class Yasuna < Formula
     homepage "https://github.com/sasairc/yasuna"
-    url "https://github.com/sasairc/yasuna/archive/v0.3.10.tar.gz"
-    sha256 "e4d42212e2172e8459dc6b32c302ce5fac2a10c50f73843e4005e77022fe4182"
-    version "0.3.10"
+    url "https://api.github.com/repos/sasairc/yasuna/tarball/v7.2.1"
+    sha256 "e28801de8fc567e17f76c0d3e22bfaf2961c10ee1143aebd99f716992d29502f"
+    version "7.2.1"
 
     def install
         system "make", "PREFIX=#{prefix}"
