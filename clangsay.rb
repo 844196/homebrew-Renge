@@ -3,9 +3,9 @@ require "formula"
 class Clangsay < Formula
   desc "The classic cowsay program, written in C."
   homepage "https://github.com/sasairc/clangsay"
-  url "https://github.com/sasairc/clangsay/archive/v1.6.2.tar.gz"
-  sha256 "67cf072ed2184f4a2d42e0656938e25b94b53ed5fae371ccc4175f2e76475ea1"
-  version "1.6.2"
+  url "https://github.com/sasairc/clangsay/archive/v1.6.3.tar.gz"
+  sha256 "d074ad1f983d48926cc56a938aa48077d784a7e9d439cf8b722e61ccefe3b08f"
+  version "1.6.3"
 
   depends_on "cowsay"
   depends_on "pkg-config"
